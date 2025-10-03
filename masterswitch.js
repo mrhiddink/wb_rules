@@ -13,7 +13,7 @@ var lights = [
               "wb-mrgbw-d-fw3_61/Channels 1_2 (B_R)", //Мягкий свет в гостиной
               "wb-mrgbw-d-fw3_61/Channel 3 (G)", //Подсветка раковины в ванной
               "wb-mrgbw-d-fw3_61/Channel 4 (W)", //Подсветка стены в спальне слева
-              "wb-mrgbw-d-fw3_102/Channels 1_2_3_4", //Большйо свет в гостиной
+              "wb-mrgbw-d-fw3_102/Channels 1_2_3_4", //Большой свет в гостиной
               "wb-mrgbw-d-fw3_121/Channel 1 (B)", //Мягкий свет в туалете
               "wb-mrgbw-d-fw3_121/Channel 2 (R)", //Подсветка кухни
               "wb-mrgbw-d-fw3_121/Channels 3_4 (G_W)", //Мягкий свет в ванной
