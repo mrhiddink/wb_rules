@@ -1,0 +1,159 @@
+{
+    "device_type": "Syberia5",
+    "device": {
+        "name": "Syberia5",
+        "id": "syberia5",
+        "max_read_registers": 60,
+        "channels": [
+            {
+                "name": "Power_ON_OFF",
+                "type": "switch",
+                "reg_type": "holding",
+                "address": "2"
+            },
+            {
+                "name": "Status",
+                "type": "switch",
+                "reg_type": "input",
+                "address": "2:0:1",
+                "format": "u16"
+            },
+            {
+                "name": "In progress",
+                "type": "switch",
+                "reg_type": "input",
+                "address": "2:1:1",
+                "format": "u16"
+            },
+            {
+                "name": "Time left",
+                "type": "text",
+                "reg_type": "input",
+                "address": "6",
+                "format": "u16"
+            },
+            {
+                "name": "Filter usage",
+                "type": "range",
+                "reg_type": "input",
+                "address": "14",
+                "format": "u16",
+                "max": 100
+            },
+            {
+                "name": "Room temp",
+                "type": "temperature",
+                "reg_type": "input",
+                "address": "57",
+                "format": "u16",
+                "scale":0.1
+            },
+            {
+                "name": "Room humidity",
+                "type": "rel_humidity",
+                "reg_type": "input",
+                "address": "58",
+                "format": "u16"
+            },
+            {
+                "name": "Input temp",
+                "type": "temperature",
+                "reg_type": "input",
+                "address": "12",
+                "format": "s16",
+                "scale":0.1
+            },
+            {
+                "name": "Output temp",
+                "type": "temperature",
+                "reg_type": "input",
+                "address": "9",
+                "format": "s16",
+                "scale":0.1
+            },
+            {
+                "name": "Fan target",
+                "type": "range",
+                "reg_type": "holding",
+                "address": "32",
+                "max": 10
+            },
+            {
+                "name": "Temp target",
+                "type": "range",
+                "reg_type": "holding",
+                "address": "31",
+                "scale": 0.1,
+                "max": 30
+            },
+            {
+                "name": "Fan state",
+                "type": "range",
+                "reg_type": "input",
+                "address": "25",
+                "format": "u16",
+                "max": 10
+
+            },
+            {
+                "name": "PID Reg",
+                "type": "range",
+                "reg_type": "input",
+                "address": "18",
+                "format": "u16",
+                "max": 100
+
+            },
+            {
+                "name": "VAV Reg",
+                "type": "range",
+                "reg_type": "input",
+                "address": "66",
+                "format": "u16",
+                "max": 100
+            },
+            {
+                "name": "State_0",
+                "type": "text",
+                "reg_type": "input",
+                "address": "2",
+                "format": "u16"
+            },
+            { 
+                "name": "State_1",
+                "type": "text",
+                "reg_type": "input",
+                "address": "3",
+                "format": "u16"
+            },
+            {
+                "name": "Error_Code",
+                "type": "text",
+                "reg_type": "input",
+                "address": "4",
+                "format": "u16"
+            },
+            {
+                "name": "Error_Code_1",
+                "type": "text",
+                "reg_type": "input",
+                "address": "5",
+                "format": "u16"
+            },
+            {
+                "name": "Error_Code_2",
+                "type": "text",
+                "reg_type": "input",
+                "address": "69",
+                "format": "u16"
+            },
+            {
+                "name": "Error_Code_3",
+                "type": "text",
+                "reg_type": "input",
+                "address": "70",
+                "format": "u16"
+            }
+        ]
+    }
+}
