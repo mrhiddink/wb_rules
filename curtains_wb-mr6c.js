@@ -71,6 +71,7 @@
 			then: function(value) {
 				if (moving) {
 					clearInterval(moving);
+                    moving=null;
 					data.up = false;
 					data.down = false;
 				}
@@ -82,17 +83,16 @@
 					return;
 				} else {
 					data.state = data.target > data.position ? 'OPENING' : 'CLOSING';
-					
 					setTimeout(function() {
 						// включаем нужное реле
 						data.up   = (data.state === 'OPENING');
 						data.down = (data.state === 'CLOSING');
-
 						moving = setInterval(function() {
 							if (data.position !== data.target) {
 								data.position += (data.state === 'OPENING') ? 1 : -1;
 							} else {
 								clearInterval(moving);
+								moving = null;
 								data.up = false;
 								data.down = false;
 								data.state = 'STOPPED';
