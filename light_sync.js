@@ -1,7 +1,7 @@
 //Синхронизируем светильники
 function makeLightSync(light1,light2) {
   defineRule({ 
-    whenChanged: light1, //Ночник справа
+    whenChanged: light1,
     then: function (newValue, devName, cellName) {
                 dev[light2] = dev[light1];
     }
