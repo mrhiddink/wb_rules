@@ -96,7 +96,7 @@
 				if (moving)
 				{
 					clearInterval(moving);
-					moving = null;
+					moving = false;
 					data.power = false;
 				}
 
@@ -120,7 +120,7 @@
 							else
 							{
 								clearInterval(moving);
-								moving = null;
+								moving = false;
 								data.power = false;
 								data.state = 'STOPPED';
 							}
