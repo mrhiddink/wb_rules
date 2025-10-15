@@ -71,7 +71,7 @@
 			then: function(value) {
 				if (moving) {
 					clearInterval(moving);
-                    moving=null;
+                    moving=false;
 					data.up = false;
 					data.down = false;
 				}
@@ -92,7 +92,7 @@
 								data.position += (data.state === 'OPENING') ? 1 : -1;
 							} else {
 								clearInterval(moving);
-								moving = null;
+								moving = false;
 								data.up = false;
 								data.down = false;
 								data.state = 'STOPPED';
