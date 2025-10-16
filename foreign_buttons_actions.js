@@ -4,7 +4,6 @@ defineRule("long_press", {
     whenChanged: switch1,
     then: function(newValue, devName, cellName) {
             if (newValue > 0) {
-                dev[light1] = !dev[light1];
                 dev[switch1] = 0;
             }
           }
