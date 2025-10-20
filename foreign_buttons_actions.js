@@ -94,3 +94,10 @@ makeForeignButtonAction( //Двойное нажатие выключателя 
                     ],
                     false
 )
+makeForeignButtonAction( //Двойное нажатие мастер-выключателя включает мягкий свет в гостиной (перед этим гасит весь свет в доме)
+                    "wb-mr6c_199/Input 0 Double Press Counter", 
+                    [
+                    "wb-mrgbw-d-fw3_61/Channels 1_2 (B_R)", //Мгякий свет в детской
+                    ],
+                    true
+)
