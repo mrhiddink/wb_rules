@@ -9,6 +9,7 @@ function addVirtualRadiator(id, name, temp_sensor, actuator) {
 		  value: 35,
 		  max: 50,
 		  min: 18,
+          precision: 0.5,
 		  order: 3,
 		},
 		On: {
@@ -30,6 +31,7 @@ function addVirtualRadiator(id, name, temp_sensor, actuator) {
 		  value: 2,
 		  max: 3,
 		  min: 0,
+          precision: 0.5,
 		  order: 4,
 		}
 	  }
@@ -77,6 +79,7 @@ function addVirtualRadiator(id, name, temp_sensor, actuator) {
     }
 //Создаем устройства. Параметры: ID устройства, наименование, датчик температуры, канал управления термоголовкой
 addVirtualRadiator('1','Радиатор - кальянная','wb-w1/28-00000d2a3003','wb-gpio/EXT1_K1');
-addVirtualRadiator('2','Радиатор - гостиная','wb-w1/28-00000d2af9b3','wb-gpio/EXT1_K2');
+//addVirtualRadiator('2','Радиатор - гостиная','wb-w1/28-00000d2af9b3','wb-gpio/EXT1_K2');
+addVirtualRadiator('2','Радиатор - гостиная','syberia5_5/Room temp','wb-gpio/EXT1_K2'); //от датчика температуры вентмашины
 addVirtualRadiator('3','Радиатор - спальня','wb-w1/28-00000d2a9f3d','wb-gpio/EXT1_K3');
 addVirtualRadiator('4','Радиатор - детская','wb-w1/28-00000d28f9d4','wb-gpio/EXT1_K4');
