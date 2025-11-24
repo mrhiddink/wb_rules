@@ -1,3 +1,4 @@
+**Все правила собраны в директории *wb-rules***
 **Правила для штор**
 
 *curtains_wb-mr6c.js и curtains_wb-do-r10r.js*
