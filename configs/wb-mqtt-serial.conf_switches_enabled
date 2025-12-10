@@ -1,0 +1,1646 @@
+{
+  "debug" : false,
+  "ports" : 
+  [
+    {
+      "baud_rate" : 9600,
+      "data_bits" : 8,
+      "devices" : 
+      [
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 4"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 4 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6 counter"
+            },
+            {
+              "enabled" : true,
+              "name" : "Input 0 Double Press Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "curtain1_close_time" : 23,
+          "curtain1_deadtime" : 500,
+          "curtain1_mode" : 1,
+          "curtain1_open_time" : 23,
+          "curtain2_close_time" : 28,
+          "curtain2_deadtime" : 500,
+          "curtain2_mode" : 1,
+          "curtain2_open_time" : 28,
+          "curtain3_close_time" : 28,
+          "curtain3_deadtime" : 500,
+          "curtain3_mode" : 1,
+          "curtain3_open_time" : 28,
+          "device_type" : "WB-MR6C",
+          "in0_mode" : 6,
+          "in1_mode" : 3,
+          "in2_mode" : 3,
+          "in5_mode" : 3,
+          "in6_mode" : 3,
+          "slave_id" : "199"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 0"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 0"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 4"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 4 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 4"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 4 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "curtain1_close_time" : 31,
+          "curtain1_deadtime" : 500,
+          "curtain1_mode" : 1,
+          "curtain1_open_time" : 31,
+          "curtain2_close_time" : 31,
+          "curtain2_deadtime" : 500,
+          "curtain2_mode" : 1,
+          "curtain2_open_time" : 31,
+          "device_type" : "WB-MR6C",
+          "in1_mode" : 3,
+          "in2_mode" : 3,
+          "slave_id" : "227"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1"
+            }
+          ],
+          "device_type" : "WB-MR3",
+          "slave_id" : "103"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 1 Counter"
+            },
+            {
+              "enabled" : true,
+              "name" : "Input 1 Double Press Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            },
+            {
+              "enabled" : true,
+              "name" : "FW Version"
+            }
+          ],
+          "device_type" : "WB-MRGBW-D_fw3_nosubdev",
+          "dimmer_mode" : 1,
+          "fader_dec_w1_w2" : 2000,
+          "fader_dec_w3" : 2000,
+          "fader_dec_w4" : 2000,
+          "fader_inc_w1_w2" : 2000,
+          "fader_inc_w3" : 2000,
+          "fader_inc_w4" : 2000,
+          "in1_lp" : 12292,
+          "in1_sp" : 12290,
+          "slave_id" : "127"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 1 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "device_type" : "WB-MRGBW-D_fw3_nosubdev",
+          "dimmer_mode" : 16,
+          "fader_dec_w1" : 2000,
+          "fader_dec_w2" : 1000,
+          "fader_dec_w3_w4" : 2000,
+          "fader_inc_w1" : 2000,
+          "fader_inc_w2" : 1000,
+          "fader_inc_w3_w4" : 2000,
+          "in1_sp" : 12288,
+          "in2_sp" : 12289,
+          "in3_sp" : 12293,
+          "slave_id" : "121"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 1 Counter"
+            },
+            {
+              "enabled" : true,
+              "name" : "Input 1 Double Press Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 Counter"
+            },
+            {
+              "enabled" : true,
+              "name" : "Input 2 Double Press Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "device_type" : "WB-MRGBW-D_fw3_nosubdev",
+          "dimmer_mode" : 17,
+          "fader_dec_w1_w2" : 2000,
+          "fader_dec_w3_w4" : 2000,
+          "fader_inc_w1_w2" : 2000,
+          "fader_inc_w3_w4" : 2000,
+          "in1_sp" : 12292,
+          "in2_sp" : 12293,
+          "slave_id" : "139"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 1"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 Counter"
+            },
+            {
+              "enabled" : true,
+              "name" : "Input 2 Double Press Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "device_type" : "WB-MRGBW-D_fw3_nosubdev",
+          "dimmer_mode" : 0,
+          "fader_dec_w1" : 2000,
+          "fader_dec_w2" : 2000,
+          "fader_dec_w3" : 2000,
+          "fader_dec_w4" : 1000,
+          "fader_inc_w1" : 2000,
+          "fader_inc_w2" : 2000,
+          "fader_inc_w3" : 2000,
+          "fader_inc_w4" : 1000,
+          "in2_sp" : 12291,
+          "slave_id" : "144"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 1 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "device_type" : "WB-MRGBW-D_fw3_nosubdev",
+          "dimmer_mode" : 512,
+          "fader_dec_w1_w2_w3_w4" : 2000,
+          "fader_inc_w1_w2_w3_w4" : 2000,
+          "in1_sp" : 12294,
+          "slave_id" : "102"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 1 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "device_type" : "WB-MRGBW-D_fw3_nosubdev",
+          "dimmer_mode" : 1,
+          "fader_dec_w1_w2" : 2000,
+          "fader_dec_w3" : 1000,
+          "fader_dec_w4" : 2000,
+          "fader_inc_w1_w2" : 2000,
+          "fader_inc_w3" : 1000,
+          "fader_inc_w4" : 2000,
+          "in1_sp" : 12292,
+          "in2_sp" : 12290,
+          "slave_id" : "61"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 4 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 4 counter"
+            },
+            {
+              "enabled" : true,
+              "name" : "Input 4 Long Press Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "device_type" : "WB-MR6C",
+          "in1_mode" : 0,
+          "in2_mode" : 0,
+          "in3_mode" : 0,
+          "in4_lp_hold_time" : 500,
+          "in4_mode" : 6,
+          "in4_out4_sp" : 3,
+          "in5_mode" : 0,
+          "in6_mode" : 0,
+          "slave_id" : "196"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 1 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 2 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 0 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 3 counter"
+            },
+            {
+              "enabled" : true,
+              "name" : "Input 4 Double Press Counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 5 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Input 6 counter"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            }
+          ],
+          "device_type" : "WB-MR6C",
+          "in1_mode" : 0,
+          "in2_mode" : 0,
+          "in3_mode" : 0,
+          "in4_mode" : 6,
+          "in4_out4_sp" : 3,
+          "in5_mode" : 1,
+          "in6_mode" : 1,
+          "slave_id" : "204"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "U L1-L2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Voltage angle L1"
+            },
+            {
+              "enabled" : false,
+              "name" : "Voltage angle L2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Voltage angle L3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial"
+            },
+            {
+              "enabled" : false,
+              "name" : "U L2-L3"
+            },
+            {
+              "enabled" : false,
+              "name" : "U L3-L1"
+            }
+          ],
+          "device_type" : "WB-MAP3EV",
+          "slave_id" : "112"
+        }
+      ],
+      "enabled" : true,
+      "parity" : "N",
+      "path" : "/dev/ttyRS485-1",
+      "stop_bits" : 2
+    },
+    {
+      "baud_rate" : 9600,
+      "data_bits" : 8,
+      "devices" : 
+      [
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Play from RAM"
+            },
+            {
+              "enabled" : false,
+              "name" : "Record to RAM"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 9"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 20 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 21 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 22 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 10"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 23 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 24 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 25 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 26 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 27 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 28 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 29 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 30 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 31 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 32 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 33 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 34 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 35 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 36 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 37 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 38 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 39 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 40 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Reset all commands"
+            },
+            {
+              "enabled" : true,
+              "name" : "Play a command"
+            },
+            {
+              "enabled" : true,
+              "name" : "Recording a command"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial NO"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 1"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 1 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 1 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 2 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 2 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 3 recording"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 4"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 3 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 4 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 4 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 5 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 5 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 6 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 6 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 5"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 7 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 7 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 8 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 8 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 9 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 9 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 6"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 10 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 10 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 11 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 12 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 7"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 13 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 14 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 15 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 16 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 8"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 17 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 18 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 19 size"
+            }
+          ],
+          "device_type" : "tpl1_wb_mir_v2",
+          "in1_mode" : 0,
+          "slave_id" : "103"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Play from RAM"
+            },
+            {
+              "enabled" : false,
+              "name" : "Record to RAM"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 9"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 20 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 21 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 22 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 10"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 23 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 24 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 25 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 26 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 27 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 28 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 29 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 30 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 31 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 32 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 33 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 34 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 35 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 36 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 37 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 38 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 39 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 40 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Reset all commands"
+            },
+            {
+              "enabled" : true,
+              "name" : "Play a command"
+            },
+            {
+              "enabled" : true,
+              "name" : "Recording a command"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial NO"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 1"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 1 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 1 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 2 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 2 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 3 recording"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 4"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 3 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 4 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 4 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 5 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 5 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 6 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 6 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 5"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 7 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 7 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 8 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 8 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 9 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 9 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 6"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 10 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 10 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 11 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 12 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 7"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 13 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 14 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 15 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 16 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 8"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 17 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 18 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 19 size"
+            }
+          ],
+          "device_type" : "tpl1_wb_mir_v2",
+          "in1_mode" : 0,
+          "slave_id" : "167"
+        },
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "Play from RAM"
+            },
+            {
+              "enabled" : false,
+              "name" : "Record to RAM"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 9"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 20 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 21 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 22 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 10"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 23 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 24 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 25 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 26 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 27 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 28 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 29 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 30 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 31 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 32 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 33 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 34 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 35 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 36 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 37 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 38 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 39 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 40 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Reset all commands"
+            },
+            {
+              "enabled" : true,
+              "name" : "Play a command"
+            },
+            {
+              "enabled" : true,
+              "name" : "Recording a command"
+            },
+            {
+              "enabled" : false,
+              "name" : "Serial NO"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 1"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 3"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 1 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 1 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 2 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 2 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 3 recording"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 4"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 3 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 4 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 4 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 5 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 5 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 6 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 6 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 5"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 7 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 7 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 8 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 8 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 9 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 9 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 6"
+            },
+            {
+              "enabled" : false,
+              "name" : "Command 10 recording"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 10 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 11 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 12 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 7"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 13 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 14 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 15 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 16 size"
+            },
+            {
+              "enabled" : false,
+              "name" : "Play command 8"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 17 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 18 size"
+            },
+            {
+              "enabled" : true,
+              "name" : "Command 19 size"
+            }
+          ],
+          "device_type" : "tpl1_wb_mir_v2",
+          "in1_mode" : 0,
+          "slave_id" : "181"
+        }
+      ],
+      "enabled" : true,
+      "parity" : "N",
+      "path" : "/dev/ttyRS485-2",
+      "stop_bits" : 2
+    },
+    {
+      "baud_rate" : 115200,
+      "data_bits" : 8,
+      "devices" : 
+      [
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : false,
+              "name" : "PID Reg"
+            },
+            {
+              "enabled" : false,
+              "name" : "VAV Reg"
+            },
+            {
+              "enabled" : false,
+              "name" : "State_0"
+            },
+            {
+              "enabled" : false,
+              "name" : "State_1"
+            },
+            {
+              "enabled" : false,
+              "name" : "Error_Code"
+            },
+            {
+              "enabled" : false,
+              "name" : "Error_Code_1"
+            },
+            {
+              "enabled" : false,
+              "name" : "Error_Code_2"
+            },
+            {
+              "enabled" : false,
+              "name" : "Error_Code_3"
+            }
+          ],
+          "device_type" : "Syberia5",
+          "name" : "Syberia5",
+          "slave_id" : "5"
+        }
+      ],
+      "enabled" : true,
+      "parity" : "N",
+      "path" : "/dev/ttyMOD1",
+      "response_timeout_ms" : 3000,
+      "stop_bits" : 2
+    },
+    {
+      "baud_rate" : 9600,
+      "data_bits" : 8,
+      "devices" : [],
+      "enabled" : false,
+      "parity" : "N",
+      "path" : "/dev/ttyMOD2",
+      "stop_bits" : 2
+    },
+    {
+      "baud_rate" : 9600,
+      "data_bits" : 8,
+      "devices" : [],
+      "enabled" : false,
+      "parity" : "N",
+      "path" : "/dev/ttyMOD3",
+      "stop_bits" : 2
+    },
+    {
+      "address" : "192.168.2.137",
+      "devices" : 
+      [
+        {
+          "channels" : 
+          [
+            {
+              "enabled" : true,
+              "name" : "Procedure for connecting wireless devices"
+            },
+            {
+              "enabled" : true,
+              "name" : "Number of connected wireless sensors"
+            },
+            {
+              "enabled" : true,
+              "name" : "battery level sensor 1"
+            },
+            {
+              "enabled" : true,
+              "name" : "sensor signal level 1"
+            },
+            {
+              "enabled" : true,
+              "name" : "presense of alarm sensor 1"
+            },
+            {
+              "enabled" : true,
+              "name" : "sensor loss sensor 1"
+            },
+            {
+              "enabled" : true,
+              "name" : "battery level sensor 2"
+            },
+            {
+              "enabled" : true,
+              "name" : "sensor signal level 2"
+            },
+            {
+              "enabled" : true,
+              "name" : "presense of alarm sensor 2"
+            },
+            {
+              "enabled" : true,
+              "name" : "sensor loss sensor 2"
+            }
+          ],
+          "device_type" : "NEPTUN_Series",
+          "slave_id" : "240"
+        }
+      ],
+      "enabled" : true,
+      "port" : 503,
+      "port_type" : "modbus tcp",
+      "response_timeout_ms" : 5000
+    }
+  ]
+}
