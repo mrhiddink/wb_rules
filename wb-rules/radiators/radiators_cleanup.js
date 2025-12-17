@@ -19,11 +19,9 @@ function radiatorCleanup(radiator, control) {
         dev[control] = true;
         setTimeout(function() { //Ждем 10 минут, закрываем клапан
           dev[control] = false;
-          setTimeout(function() { //Ждем 30 секунд, возвращаем радиатор в первоначальное состояние
-            dev[radiator + '/On'] = stateR;
-            dev[control] = stateC;
-            log.info("Цикл очистки радиатора", radiator, "завершен");
-          }, 30*1000);
+          dev[radiator + '/On'] = stateR;
+          dev[control] = stateC;
+          log.info("Цикл очистки радиатора", radiator, "завершен");
         }, 10*60*1000); 
       }, 1000); 
       }  
