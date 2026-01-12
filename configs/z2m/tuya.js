@@ -1,6 +1,6 @@
 	{
         fingerprint: tuya.fingerprint("TS0601", ["_TZE284_cgr0rhza"]),
-        model: "TS0601_thermostat_4",
+        model: "TR-M3Z",
         vendor: "Tuya",
         description: "Thermostatic radiator valve",
         fromZigbee: [tuya.fz.datapoints],
