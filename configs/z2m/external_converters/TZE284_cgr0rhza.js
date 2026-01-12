@@ -28,7 +28,7 @@ const definition = {
         description: "Thermostatic radiator valve",
         fromZigbee: [tuya.fz.datapoints],
         toZigbee: [tuya.tz.datapoints],
-        onEvent: tuya.onEventSetLocalTime,
+        extend: [tuya.modernExtend.tuyaBase({ dp: true, forceTimeUpdates: true, timeStart: "1970" })],
         configure: tuya.configureMagicPacket,
         exposes: [
             e.child_lock(),
